@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>person.lyh</groupId>
+  <artifactId>mvnbugtest</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>mvnbugtest</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+	
+	        <dependency>
+            <groupId>com.netease.mail.holmes</groupId>
+            <artifactId>azkaban-client</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+  </dependencies>
+  
+      <repositories>
+        <repository>
+            <id>RepoMail</id>
+            <url>http://repo.mail.netease.com/artifactory/simple/repo</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>hzntes-mail</id>
+            <name>NTES-MAIL-HZ Maven Repository</name>
+            <url>http://repo.mail.netease.com/artifactory/repo</url>
+        </repository>
+    </repositories>
+</project>
